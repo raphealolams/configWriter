@@ -1,0 +1,32 @@
+{
+  "name": "configwriter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphealolams/configWriter.git"
+  },
+  "keywords": [
+    "Config",
+    "Writer"
+  ],
+  "author": "Ajilore Raphael Olamide <raphealolams@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphealolams/configWriter/issues"
+  },
+  "homepage": "https://github.com/raphealolams/configWriter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
